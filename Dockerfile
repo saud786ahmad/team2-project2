@@ -4,4 +4,4 @@ From tomcat:8-jre8
 MAINTAINER "valaxytech" 
 
 # copy war file on to container 
-COPY ./team-2-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps
+COPY ./target/team-2-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps
